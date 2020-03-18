@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "enabled=false": { "model": "cdmmm:block/totem"},
+        "enabled=true": { "model": "cdmmm:block/active_totem"}
+    }
+}

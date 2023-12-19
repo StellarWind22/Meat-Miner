@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smoking",
+    "category": "food",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+      "item": "meatminer:raw_meat"
+    },
+    "result": "meatminer:cooked_meat"
+  }

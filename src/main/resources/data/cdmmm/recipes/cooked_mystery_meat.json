@@ -1,7 +1,0 @@
-{
-	"type": "minecraft:smelting",
-	"ingredient": {"item": "cdmmm:mystery_meat"},
-	"result": "cdmmm:cooked_mystery_meat",
-	"experience": 0.35,
-	"cookingtime": 200
-  }

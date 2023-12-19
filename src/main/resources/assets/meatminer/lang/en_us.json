@@ -1,0 +1,9 @@
+{
+    "item.meatminer.raw_meat": "Raw Meat",
+    "item.meatminer.cooked_meat": "Cooked Meat",
+    "block.meatminer.meat_ore": "Meat Ore",
+    "block.meatminer.deepslate_meat_ore": "Deepslate Meat Ore",
+    "block.meatminer.nether_meat_ore": "Nether Meat Ore",
+    "block.meatminer.end_meat_ore": "End Meat Ore",
+    "itemGroup.meatminer.meat_group": "Meat Miner"
+}

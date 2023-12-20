@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import com.github.crimsondawn45.meatminer.food.ModFoodComponents;
 import com.github.crimsondawn45.meatminer.util.ModBlock;
 import com.github.crimsondawn45.meatminer.util.ModItem;
+import com.github.crimsondawn45.meatminer.world.gen.ModWorldGeneration;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -50,8 +51,8 @@ public class MeatMiner implements ModInitializer {
 		raw_meat = new ModItem("raw_meat", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_MEAT_COMPONENT)));
 		cooked_meat = new ModItem("cooked_meat", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_MEAT_COMPONENT)));
 
+		//Add all registered items to group
 		MEAT_GROUP.entries((context, entries) -> {
-
 			for(ModItem item : ModItem.modItems) {
 				entries.add(item.getItem());
 			}
@@ -59,6 +60,9 @@ public class MeatMiner implements ModInitializer {
 
 		//Register item group
 		Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "meat_group"), MEAT_GROUP.build());
+
+		//Generate ores
+		ModWorldGeneration.generateModWorldGen();
 
 		LOGGER.info("Meat Miner initialized.");
 	}

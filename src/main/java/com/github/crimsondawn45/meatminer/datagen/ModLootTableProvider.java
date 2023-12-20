@@ -21,10 +21,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider{
 
     @Override
     public void generate() {
-        addDrop(MeatMiner.meat_ore.getBlock(), meatOreDrops(MeatMiner.meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 2.0F, 5.0F));
-        addDrop(MeatMiner.deepslate_meat_ore.getBlock(), meatOreDrops(MeatMiner.deepslate_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 2.0F, 5.0F));
-        addDrop(MeatMiner.nether_meat_ore.getBlock(), meatOreDrops(MeatMiner.nether_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 2.0F, 5.0F));
-        addDrop(MeatMiner.end_meat_ore.getBlock(), meatOreDrops(MeatMiner.end_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 2.0F, 5.0F));
+        addDrop(MeatMiner.meat_ore.getBlock(), meatOreDrops(MeatMiner.meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 1.0F, 3.0F));
+        addDrop(MeatMiner.deepslate_meat_ore.getBlock(), meatOreDrops(MeatMiner.deepslate_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 1.0F, 3.0F));
+        addDrop(MeatMiner.nether_meat_ore.getBlock(), meatOreDrops(MeatMiner.nether_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 1.0F, 3.0F));
+        addDrop(MeatMiner.end_meat_ore.getBlock(), meatOreDrops(MeatMiner.end_meat_ore.getBlock(), MeatMiner.raw_meat.getItem(), 1.0F, 3.0F));
     }
 
     public LootTable.Builder meatOreDrops(Block drop, Item ore_drop, Float min, Float max) {

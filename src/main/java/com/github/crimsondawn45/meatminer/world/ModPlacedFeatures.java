@@ -24,17 +24,11 @@ public class ModPlacedFeatures {
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
-        register(context, MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MEAT_ORE_KEY),
-            ModOrePlacement.modifiersWithCount(8, 
-                HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
+        register(context, MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MEAT_ORE_KEY), ModOrePlacement.modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
 
-        register(context, NETHER_MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHER_MEAT_ORE_KEY),
-            ModOrePlacement.modifiersWithCount(8, 
-                HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
+        register(context, NETHER_MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHER_MEAT_ORE_KEY), ModOrePlacement.modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
 
-        register(context, END_MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_MEAT_ORE_KEY),
-            ModOrePlacement.modifiersWithCount(8, 
-                HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
+        register(context, END_MEAT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_MEAT_ORE_KEY), ModOrePlacement.modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.BOTTOM, YOffset.TOP)));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

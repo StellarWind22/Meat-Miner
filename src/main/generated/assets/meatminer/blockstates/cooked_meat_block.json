@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "meatminer:block/cooked_meat_block"
+    }
+  }
+}

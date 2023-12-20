@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "meatminer:block/cooked_meat_block"
+  }
+}

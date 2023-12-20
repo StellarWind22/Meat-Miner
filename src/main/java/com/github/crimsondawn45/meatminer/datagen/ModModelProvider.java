@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
        blockStateModelGenerator.registerSimpleCubeAll(MeatMiner.deepslate_meat_ore.getBlock());
        blockStateModelGenerator.registerSimpleCubeAll(MeatMiner.nether_meat_ore.getBlock());
        blockStateModelGenerator.registerSimpleCubeAll(MeatMiner.end_meat_ore.getBlock());
+       blockStateModelGenerator.registerSimpleCubeAll(MeatMiner.raw_meat_block.getBlock());
+       blockStateModelGenerator.registerSimpleCubeAll(MeatMiner.cooked_meat_block.getBlock());
     }
 
     @Override

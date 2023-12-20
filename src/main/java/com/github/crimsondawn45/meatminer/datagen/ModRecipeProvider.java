@@ -23,15 +23,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         MeatMiner.end_meat_ore.getItem()
     );
 
+    private static final List<ItemConvertible> meat_block = List.of(MeatMiner.raw_meat_block.getBlock());
+
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generate(RecipeExporter exporter) {
+        //Cook Default Items
         offerSmelting(exporter, meat_smeltables, RecipeCategory.FOOD, MeatMiner.cooked_meat.getItem(), 0.35F, 200, MeatMiner.cooked_meat.getName());
         offerSmoking(exporter, meat_smeltables, RecipeCategory.FOOD, MeatMiner.cooked_meat.getItem(), 0.35F, 100, MeatMiner.cooked_meat.getName());
         offerCampfire(exporter, meat_smeltables, RecipeCategory.FOOD, MeatMiner.cooked_meat.getItem(), 0.35F, 600, MeatMiner.cooked_meat.getName());
+
+        //Craft blocks
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MeatMiner.raw_meat.getItem(), RecipeCategory.FOOD, MeatMiner.raw_meat_block.getItem());
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, MeatMiner.cooked_meat.getItem(), RecipeCategory.FOOD, MeatMiner.cooked_meat_block.getItem());
+
+        //Cook blocks
+        offerSmelting(exporter, meat_block, RecipeCategory.FOOD, MeatMiner.cooked_meat_block.getItem(), 3.15F, 200, MeatMiner.cooked_meat_block.getName());
+        offerSmoking(exporter, meat_block, RecipeCategory.FOOD, MeatMiner.cooked_meat_block.getItem(), 3.15F, 100, MeatMiner.cooked_meat_block.getName());
+        offerCampfire(exporter, meat_block, RecipeCategory.FOOD, MeatMiner.cooked_meat_block.getItem(), 3.15F, 600, MeatMiner.cooked_meat_block.getName());
     }
 
     private static void offerSmoking(RecipeExporter exporter, List<ItemConvertible> inputs, RecipeCategory category, ItemConvertible output, float experience, int cookingTime, String group) {

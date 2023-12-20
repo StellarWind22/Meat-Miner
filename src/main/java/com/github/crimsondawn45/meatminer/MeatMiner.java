@@ -32,6 +32,8 @@ public class MeatMiner implements ModInitializer {
 	public static ModBlock deepslate_meat_ore;
 	public static ModBlock nether_meat_ore;
 	public static ModBlock end_meat_ore;
+	public static ModBlock raw_meat_block;
+	public static ModBlock cooked_meat_block;
 
 	public static ModItem raw_meat;
 	public static ModItem cooked_meat;
@@ -47,6 +49,9 @@ public class MeatMiner implements ModInitializer {
 		deepslate_meat_ore = new ModBlock("deepslate_meat_ore", new BlockItem(new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)), new FabricItemSettings()));
 		nether_meat_ore = new ModBlock("nether_meat_ore", new BlockItem(new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK)), new FabricItemSettings()));
 		end_meat_ore = new ModBlock("end_meat_ore", new BlockItem(new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)), new FabricItemSettings()));
+
+		raw_meat_block = new ModBlock("raw_meat_block", new BlockItem(new Block(FabricBlockSettings.copyOf(Blocks.MUD)), new FabricItemSettings()));
+		cooked_meat_block = new ModBlock("cooked_meat_block", new BlockItem(new Block(FabricBlockSettings.copyOf(Blocks.MUD)), new FabricItemSettings()));
 
 		raw_meat = new ModItem("raw_meat", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_MEAT_COMPONENT)));
 		cooked_meat = new ModItem("cooked_meat", new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_MEAT_COMPONENT)));

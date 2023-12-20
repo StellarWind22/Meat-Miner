@@ -1,5 +1,7 @@
-// 1.20.4	2023-12-20T08:42:09.8303438	Meat Miner/Block Loot Tables
+// 1.20.4	2023-12-20T12:41:14.3673276	Meat Miner/Block Loot Tables
 26d90d6107519621e919f41664a936c87dafb66c data\meatminer\loot_tables\blocks\nether_meat_ore.json
 148f6313becf19ac846a6bbfdf660353f728d775 data\meatminer\loot_tables\blocks\end_meat_ore.json
 ba8c50bd1908f96bd592cc01a32aede8e066fd67 data\meatminer\loot_tables\blocks\deepslate_meat_ore.json
+d3c221dfcbb274f4c04e501ffeb5861d55b474bd data\meatminer\loot_tables\blocks\cooked_meat_block.json
 fb1a470594f60290c4466d4364f726b378f88ed8 data\meatminer\loot_tables\blocks\meat_ore.json
+6e436e65a3efc6b9298ba7056d42c4164c4da160 data\meatminer\loot_tables\blocks\raw_meat_block.json

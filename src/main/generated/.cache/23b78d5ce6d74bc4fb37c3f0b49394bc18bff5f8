@@ -1,0 +1,15 @@
+// 1.20.4	2023-12-20T02:56:00.7327309	Meat Miner/Model Definitions
+3b77b90fd9e16bca22aa09938aed2a25b3a1eee2 assets\meatminer\models\item\nether_meat_ore.json
+56a59bae70629eb886d0ee62bfcc00a250d9d30f assets\meatminer\models\item\deepslate_meat_ore.json
+0abdbd35f0c39c264f4c9ede7bab104fa045f16d assets\meatminer\models\block\nether_meat_ore.json
+f5044a7dfa41f992adad380cb64907b3766648f5 assets\meatminer\blockstates\deepslate_meat_ore.json
+cae104e69f2763d6a072570e8662f141e6c58cfd assets\meatminer\models\item\end_meat_ore.json
+b76bb197dba2085a18e3dc77efb24149b1c6d0f8 assets\meatminer\models\item\meat_ore.json
+0dc08626bbd326132408ea86f5d71ff298300baa assets\meatminer\models\block\deepslate_meat_ore.json
+88ddadd1163d3827d6ed6f118776274d93866e42 assets\meatminer\models\block\meat_ore.json
+44c799e76130150e141712a68220591c14309ab5 assets\meatminer\models\block\end_meat_ore.json
+be33d41a66fd2f9e9a9615ad16ceea274fcb870f assets\meatminer\blockstates\end_meat_ore.json
+c527b40f338725d2000519478699838c594160f9 assets\meatminer\models\item\raw_meat.json
+5e866c431a23f9fa6d6ffb65e874c6464adf913e assets\meatminer\blockstates\meat_ore.json
+6f215f8168250da0fb66d21d59a2b85161f31d7b assets\meatminer\blockstates\nether_meat_ore.json
+b60cf210626819812bfa2884d7177aa2edf76662 assets\meatminer\models\item\cooked_meat.json

@@ -3,7 +3,7 @@ package com.github.crimsondawn45.meatminer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.github.crimsondawn45.food.ModFoodComponents;
+import com.github.crimsondawn45.meatminer.food.ModFoodComponents;
 import com.github.crimsondawn45.meatminer.util.ModBlock;
 import com.github.crimsondawn45.meatminer.util.ModItem;
 

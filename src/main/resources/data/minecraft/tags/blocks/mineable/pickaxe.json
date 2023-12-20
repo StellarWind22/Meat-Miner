@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "meatminer:meat_ore",
-        "meatminer:deepslate_meat_ore",
-        "meatminer:nether_meat_ore",
-        "meatminer:end_meat_ore"
-    ]
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "meatminer:block/end_meat_ore"
-    }
-}

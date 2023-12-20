@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.github.crimsondawn45.meatminer.MeatMiner"
+		],
+		"fabric-datagen": [
+			"com.github.crimsondawn45.meatminer.MeatMinerDataGen"
 		]
 	},
 	"depends": {

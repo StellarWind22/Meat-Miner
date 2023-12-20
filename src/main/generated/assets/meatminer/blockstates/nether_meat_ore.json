@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "meatminer:block/nether_meat_ore"
+    }
+  }
+}
